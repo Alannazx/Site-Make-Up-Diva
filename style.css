@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.navigation {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.navigation a,
+.navigation span {
+    color: #ff69b4;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Estilo exclusivo para a página Sobre */
+.sobre {
+    background-color: pink;
+    padding: 40px 20px;
+    margin-top: 30px;
+    border-top: 2px solid #ff4781;
+    color: #333;
+    text-align: left;
+}
+
+.sobre h2 {
+    font-family: 2.5rem;
+    color: #ffffff;
+}
+
+.sobre p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.sobre ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.sobre ul li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: rgb(255, 155, 172);
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: #000000;
+}
+
+#menu {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#menu h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.menu-item .btn {
+    background-color: rgb(228, 150, 163);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.menu-item .btn:hover {
+    background-color: #f4f4f9;
+    color: pink;
+}
+
+#contact {
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
